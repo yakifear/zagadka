@@ -1,0 +1,48 @@
+html {
+    cursor: help;
+}
+
+body {
+    font-family: 'Amatic SC', cursive;
+    vertical-align: middle;
+}
+
+/* Random */
+a {
+    color : #1b2735;
+}
+
+a:visited {
+    color: #1b2735;
+}
+    
+a:active {
+    color: #1b2735;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* mybutton */
+.mybutton {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+    margin: auto;
+	margin-top: 20%;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    color: #403c39;
+    font-family: 'Amatic SC', cursive;
+    vertical-align: middle;
+    font-size: 64px;
+    line-height: 1.5;
+    max-width: 800px;
+	cursor: pointer;
+}
