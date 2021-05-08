@@ -2,9 +2,21 @@
 <html>
  <head>
   <meta charset="utf-8">
-  <title>Загадка 🐿</title>
+  <title>Загадка </title>
  <body id="body">
- <input class="mybutton" type="button" value=" 1" onclick="like()">
+ <input class="mybutton" type="button" value=" 0" onclick="like()">
+  <script>
+   function like() {
+     var like_btn = document.body.children[0]
+     if ("0".length == like_btn.value.length)
+     	like_btn.value = " 1"
+     else 
+     {
+        var num = like_btn.value.substring("".length, like_btn.length)
+        like_btn.value = " " + ++num
+     }
+   }
+  </script>
 
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="https://github.com/yakifear/oca/blob/master/assets/images/ms-icon-144x144.png">
