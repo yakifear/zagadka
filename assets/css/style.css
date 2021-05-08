@@ -43,5 +43,5 @@ a:active {
     font-size: 64px;
     line-height: 1.5;
     max-width: 800px;
-	cursor: pointer;
+	cursor: progress;
 }
