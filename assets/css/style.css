@@ -33,6 +33,7 @@ a:active {
     transform: translate(-50%, 0);
     margin: auto;
     margin-top: 20%;
+    cursor: pointer;
     background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
